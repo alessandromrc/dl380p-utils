@@ -1,5 +1,9 @@
 ## DL380p Utils
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f82c94ef-be48-419e-865e-314a304f7dfd" width="500">
+</p>
+
 This project aims to provide multiple utilities to enhance the usage of your DL380p Gen8 server, particularly in a **homelab environment**.
 
 Currently, it includes:
