@@ -8,12 +8,12 @@ const { NodeSSH } = require('node-ssh');
 
 const COMMAND_LIST = [
   // fan minimums
-  "fan p 0 min 50",
-  "fan p 1 min 50",
-  "fan p 2 min 50",
-  "fan p 3 min 65",
-  "fan p 4 min 65",
-  "fan p 5 min 65",
+  "fan p 0 min 0",
+  "fan p 1 min 0",
+  "fan p 2 min 0",
+  "fan p 3 min 0",
+  "fan p 4 min 0",
+  "fan p 5 min 0",
 
   // Ignore HD Cage sensor due to non-HP branded HDDs.
   "fan t 12 off",
@@ -48,7 +48,9 @@ const COMMAND_LIST = [
   "fan p 2 min 50",
   "fan p 3 min 65",
   "fan p 4 min 65",
-  "fan p 5 min 65"
+  "fan p 5 min 65",
+
+  "fan pid 50 sp 4600"
 ];
 
 const ssh = new NodeSSH();
