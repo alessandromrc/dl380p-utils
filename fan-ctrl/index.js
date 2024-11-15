@@ -41,16 +41,14 @@ const COMMAND_LIST = [
   "fan t 62 off",
   "fan t 63 off",
 
-  // fix minimums
-  "fan t 00 set 5",
-  "fan p 0 min 50",
-  "fan p 1 min 50",
-  "fan p 2 min 50",
-  "fan p 3 min 65",
-  "fan p 4 min 65",
-  "fan p 5 min 65",
+  "fan pid 50 sp 4600",
 
-  "fan pid 50 sp 4600"
+  // CPU 1 setpoint
+  "fan pid 2 sp 5500",
+
+  // CPU 2 setpoint
+  "fan pid 3 sp 5500"
+
 ];
 
 const ssh = new NodeSSH();
