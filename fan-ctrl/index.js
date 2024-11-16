@@ -12,10 +12,10 @@ const COMMAND_LIST = [
   "fan p 1 min 20",
   "fan p 2 min 20",
   "fan p 3 min 0",
-  "fan p 4 min 20",
+  "fan p 4 min 0",
   "fan p 5 min 20",
-  "fan p 6 min 0",
-  "fan p 7 min 0",
+  "fan p 6 min 20",
+  "fan p 7 min 20",
 
   // Ignore HD Cage sensor due to non-HP branded HDDs.
   "fan t 12 off",
